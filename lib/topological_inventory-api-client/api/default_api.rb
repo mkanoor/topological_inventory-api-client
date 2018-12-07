@@ -186,7 +186,7 @@ module TopologicalInventoryApiClient
 
     # Delete an existing Endpoint
     # Deletes a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [nil]
     def delete_endpoint(id, opts = {})
@@ -196,7 +196,7 @@ module TopologicalInventoryApiClient
 
     # Delete an existing Endpoint
     # Deletes a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(nil, Fixnum, Hash)>] nil, response status code and response headers
     def delete_endpoint_with_http_info(id, opts = {})
@@ -240,7 +240,7 @@ module TopologicalInventoryApiClient
 
     # Delete an existing Source
     # Deletes a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [nil]
     def delete_source(id, opts = {})
@@ -250,7 +250,7 @@ module TopologicalInventoryApiClient
 
     # Delete an existing Source
     # Deletes a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(nil, Fixnum, Hash)>] nil, response status code and response headers
     def delete_source_with_http_info(id, opts = {})
@@ -341,7 +341,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerGroups for ContainerNode
     # Returns an array of ContainerGroup objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ContainerGroup>]
     def list_container_node_container_groups(id, opts = {})
@@ -351,7 +351,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerGroups for ContainerNode
     # Returns an array of ContainerGroup objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ContainerGroup>, Fixnum, Hash)>] Array<ContainerGroup> data, response status code and response headers
     def list_container_node_container_groups_with_http_info(id, opts = {})
@@ -445,7 +445,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerGroups for ContainerProject
     # Returns an array of ContainerGroup objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ContainerGroup>]
     def list_container_project_container_groups(id, opts = {})
@@ -455,7 +455,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerGroups for ContainerProject
     # Returns an array of ContainerGroup objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ContainerGroup>, Fixnum, Hash)>] Array<ContainerGroup> data, response status code and response headers
     def list_container_project_container_groups_with_http_info(id, opts = {})
@@ -502,7 +502,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerTemplates for ContainerProject
     # Returns an array of ContainerTemplate objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ContainerTemplate>]
     def list_container_project_container_templates(id, opts = {})
@@ -512,7 +512,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerTemplates for ContainerProject
     # Returns an array of ContainerTemplate objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ContainerTemplate>, Fixnum, Hash)>] Array<ContainerTemplate> data, response status code and response headers
     def list_container_project_container_templates_with_http_info(id, opts = {})
@@ -794,7 +794,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceInstances for ServiceOffering
     # Returns an array of ServiceInstance objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ServiceInstance>]
     def list_service_offering_service_instances(id, opts = {})
@@ -804,7 +804,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceInstances for ServiceOffering
     # Returns an array of ServiceInstance objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ServiceInstance>, Fixnum, Hash)>] Array<ServiceInstance> data, response status code and response headers
     def list_service_offering_service_instances_with_http_info(id, opts = {})
@@ -851,7 +851,7 @@ module TopologicalInventoryApiClient
 
     # List ServicePlans for ServiceOffering
     # Returns an array of ServicePlan objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ServicePlan>]
     def list_service_offering_service_plans(id, opts = {})
@@ -861,7 +861,7 @@ module TopologicalInventoryApiClient
 
     # List ServicePlans for ServiceOffering
     # Returns an array of ServicePlan objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ServicePlan>, Fixnum, Hash)>] Array<ServicePlan> data, response status code and response headers
     def list_service_offering_service_plans_with_http_info(id, opts = {})
@@ -955,7 +955,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceInstances for ServicePlan
     # Returns an array of ServiceInstance objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ServiceInstance>]
     def list_service_plan_service_instances(id, opts = {})
@@ -965,7 +965,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceInstances for ServicePlan
     # Returns an array of ServiceInstance objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ServiceInstance>, Fixnum, Hash)>] Array<ServiceInstance> data, response status code and response headers
     def list_service_plan_service_instances_with_http_info(id, opts = {})
@@ -1059,7 +1059,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerGroups for Source
     # Returns an array of ContainerGroup objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ContainerGroup>]
     def list_source_container_groups(id, opts = {})
@@ -1069,7 +1069,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerGroups for Source
     # Returns an array of ContainerGroup objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ContainerGroup>, Fixnum, Hash)>] Array<ContainerGroup> data, response status code and response headers
     def list_source_container_groups_with_http_info(id, opts = {})
@@ -1116,7 +1116,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerNodes for Source
     # Returns an array of ContainerNode objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ContainerNode>]
     def list_source_container_nodes(id, opts = {})
@@ -1126,7 +1126,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerNodes for Source
     # Returns an array of ContainerNode objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ContainerNode>, Fixnum, Hash)>] Array<ContainerNode> data, response status code and response headers
     def list_source_container_nodes_with_http_info(id, opts = {})
@@ -1173,7 +1173,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerProjects for Source
     # Returns an array of ContainerProject objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ContainerProject>]
     def list_source_container_projects(id, opts = {})
@@ -1183,7 +1183,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerProjects for Source
     # Returns an array of ContainerProject objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ContainerProject>, Fixnum, Hash)>] Array<ContainerProject> data, response status code and response headers
     def list_source_container_projects_with_http_info(id, opts = {})
@@ -1230,7 +1230,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerTemplates for Source
     # Returns an array of ContainerTemplate objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ContainerTemplate>]
     def list_source_container_templates(id, opts = {})
@@ -1240,7 +1240,7 @@ module TopologicalInventoryApiClient
 
     # List ContainerTemplates for Source
     # Returns an array of ContainerTemplate objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ContainerTemplate>, Fixnum, Hash)>] Array<ContainerTemplate> data, response status code and response headers
     def list_source_container_templates_with_http_info(id, opts = {})
@@ -1287,7 +1287,7 @@ module TopologicalInventoryApiClient
 
     # List Endpoints for Source
     # Returns an array of Endpoint objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<Endpoint>]
     def list_source_endpoints(id, opts = {})
@@ -1297,7 +1297,7 @@ module TopologicalInventoryApiClient
 
     # List Endpoints for Source
     # Returns an array of Endpoint objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<Endpoint>, Fixnum, Hash)>] Array<Endpoint> data, response status code and response headers
     def list_source_endpoints_with_http_info(id, opts = {})
@@ -1344,7 +1344,7 @@ module TopologicalInventoryApiClient
 
     # List OrchestrationStacks for Source
     # Returns an array of OrchestrationStack objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<OrchestrationStack>]
     def list_source_orchestration_stacks(id, opts = {})
@@ -1354,7 +1354,7 @@ module TopologicalInventoryApiClient
 
     # List OrchestrationStacks for Source
     # Returns an array of OrchestrationStack objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<OrchestrationStack>, Fixnum, Hash)>] Array<OrchestrationStack> data, response status code and response headers
     def list_source_orchestration_stacks_with_http_info(id, opts = {})
@@ -1401,7 +1401,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceInstances for Source
     # Returns an array of ServiceInstance objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ServiceInstance>]
     def list_source_service_instances(id, opts = {})
@@ -1411,7 +1411,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceInstances for Source
     # Returns an array of ServiceInstance objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ServiceInstance>, Fixnum, Hash)>] Array<ServiceInstance> data, response status code and response headers
     def list_source_service_instances_with_http_info(id, opts = {})
@@ -1458,7 +1458,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceOfferings for Source
     # Returns an array of ServiceOffering objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ServiceOffering>]
     def list_source_service_offerings(id, opts = {})
@@ -1468,7 +1468,7 @@ module TopologicalInventoryApiClient
 
     # List ServiceOfferings for Source
     # Returns an array of ServiceOffering objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ServiceOffering>, Fixnum, Hash)>] Array<ServiceOffering> data, response status code and response headers
     def list_source_service_offerings_with_http_info(id, opts = {})
@@ -1515,7 +1515,7 @@ module TopologicalInventoryApiClient
 
     # List ServicePlans for Source
     # Returns an array of ServicePlan objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<ServicePlan>]
     def list_source_service_plans(id, opts = {})
@@ -1525,7 +1525,7 @@ module TopologicalInventoryApiClient
 
     # List ServicePlans for Source
     # Returns an array of ServicePlan objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<ServicePlan>, Fixnum, Hash)>] Array<ServicePlan> data, response status code and response headers
     def list_source_service_plans_with_http_info(id, opts = {})
@@ -1572,7 +1572,7 @@ module TopologicalInventoryApiClient
 
     # List Sources for SourceType
     # Returns an array of Source objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<Source>]
     def list_source_type_sources(id, opts = {})
@@ -1582,7 +1582,7 @@ module TopologicalInventoryApiClient
 
     # List Sources for SourceType
     # Returns an array of Source objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<Source>, Fixnum, Hash)>] Array<Source> data, response status code and response headers
     def list_source_type_sources_with_http_info(id, opts = {})
@@ -1676,7 +1676,7 @@ module TopologicalInventoryApiClient
 
     # List Vms for Source
     # Returns an array of Vm objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<Vm>]
     def list_source_vms(id, opts = {})
@@ -1686,7 +1686,7 @@ module TopologicalInventoryApiClient
 
     # List Vms for Source
     # Returns an array of Vm objects
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<Vm>, Fixnum, Hash)>] Array<Vm> data, response status code and response headers
     def list_source_vms_with_http_info(id, opts = {})
@@ -1874,22 +1874,22 @@ module TopologicalInventoryApiClient
 
     # Order an existing ServicePlan
     # Returns a Task id
-    # @param id ID of the resource to return
+    # @param id ID of the resource
+    # @param order_parameters Order parameters defining the service and provider control
     # @param [Hash] opts the optional parameters
-    # @option opts [InlineObject] :inline_object 
     # @return [InlineResponse200]
-    def order_service_plan(id, opts = {})
-      data, _status_code, _headers = order_service_plan_with_http_info(id, opts)
+    def order_service_plan(id, order_parameters, opts = {})
+      data, _status_code, _headers = order_service_plan_with_http_info(id, order_parameters, opts)
       data
     end
 
     # Order an existing ServicePlan
     # Returns a Task id
-    # @param id ID of the resource to return
+    # @param id ID of the resource
+    # @param order_parameters Order parameters defining the service and provider control
     # @param [Hash] opts the optional parameters
-    # @option opts [InlineObject] :inline_object 
     # @return [Array<(InlineResponse200, Fixnum, Hash)>] InlineResponse200 data, response status code and response headers
-    def order_service_plan_with_http_info(id, opts = {})
+    def order_service_plan_with_http_info(id, order_parameters, opts = {})
       if @api_client.config.debugging
         @api_client.config.logger.debug 'Calling API: DefaultApi.order_service_plan ...'
       end
@@ -1901,6 +1901,10 @@ module TopologicalInventoryApiClient
         fail ArgumentError, "invalid value for 'id' when calling DefaultApi.order_service_plan, must conform to the pattern /^\d+$/."
       end
 
+      # verify the required parameter 'order_parameters' is set
+      if @api_client.config.client_side_validation && order_parameters.nil?
+        fail ArgumentError, "Missing the required parameter 'order_parameters' when calling DefaultApi.order_service_plan"
+      end
       # resource path
       local_var_path = '/service_plans/{id}/order'.sub('{' + 'id' + '}', id.to_s)
 
@@ -1918,7 +1922,7 @@ module TopologicalInventoryApiClient
       form_params = {}
 
       # http body (model)
-      post_body = @api_client.object_to_http_body(opts[:'inline_object'])
+      post_body = @api_client.object_to_http_body(order_parameters)
       auth_names = ['UserSecurity']
       data, status_code, headers = @api_client.call_api(:POST, local_var_path,
         :header_params => header_params,
@@ -1935,7 +1939,7 @@ module TopologicalInventoryApiClient
 
     # Replace an existing Endpoint
     # Replaces a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [nil]
     def replace_endpoint(id, opts = {})
@@ -1945,7 +1949,7 @@ module TopologicalInventoryApiClient
 
     # Replace an existing Endpoint
     # Replaces a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(nil, Fixnum, Hash)>] nil, response status code and response headers
     def replace_endpoint_with_http_info(id, opts = {})
@@ -1989,7 +1993,7 @@ module TopologicalInventoryApiClient
 
     # Replace an existing Source
     # Replaces a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [nil]
     def replace_source(id, opts = {})
@@ -1999,7 +2003,7 @@ module TopologicalInventoryApiClient
 
     # Replace an existing Source
     # Replaces a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(nil, Fixnum, Hash)>] nil, response status code and response headers
     def replace_source_with_http_info(id, opts = {})
@@ -2043,7 +2047,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerGroup
     # Returns a ContainerGroup object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [ContainerGroup]
     def show_container_group(id, opts = {})
@@ -2053,7 +2057,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerGroup
     # Returns a ContainerGroup object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(ContainerGroup, Fixnum, Hash)>] ContainerGroup data, response status code and response headers
     def show_container_group_with_http_info(id, opts = {})
@@ -2100,7 +2104,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerNode
     # Returns a ContainerNode object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [ContainerNode]
     def show_container_node(id, opts = {})
@@ -2110,7 +2114,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerNode
     # Returns a ContainerNode object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(ContainerNode, Fixnum, Hash)>] ContainerNode data, response status code and response headers
     def show_container_node_with_http_info(id, opts = {})
@@ -2157,7 +2161,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerProject
     # Returns a ContainerProject object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [ContainerProject]
     def show_container_project(id, opts = {})
@@ -2167,7 +2171,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerProject
     # Returns a ContainerProject object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(ContainerProject, Fixnum, Hash)>] ContainerProject data, response status code and response headers
     def show_container_project_with_http_info(id, opts = {})
@@ -2214,7 +2218,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerTemplate
     # Returns a ContainerTemplate object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [ContainerTemplate]
     def show_container_template(id, opts = {})
@@ -2224,7 +2228,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ContainerTemplate
     # Returns a ContainerTemplate object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(ContainerTemplate, Fixnum, Hash)>] ContainerTemplate data, response status code and response headers
     def show_container_template_with_http_info(id, opts = {})
@@ -2271,7 +2275,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Endpoint
     # Returns a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Endpoint]
     def show_endpoint(id, opts = {})
@@ -2281,7 +2285,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Endpoint
     # Returns a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Endpoint, Fixnum, Hash)>] Endpoint data, response status code and response headers
     def show_endpoint_with_http_info(id, opts = {})
@@ -2328,7 +2332,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing OrchestrationStack
     # Returns an OrchestrationStack object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [OrchestrationStack]
     def show_orchestration_stack(id, opts = {})
@@ -2338,7 +2342,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing OrchestrationStack
     # Returns an OrchestrationStack object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(OrchestrationStack, Fixnum, Hash)>] OrchestrationStack data, response status code and response headers
     def show_orchestration_stack_with_http_info(id, opts = {})
@@ -2385,7 +2389,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ServiceInstance
     # Returns a ServiceInstance object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [ServiceInstance]
     def show_service_instance(id, opts = {})
@@ -2395,7 +2399,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ServiceInstance
     # Returns a ServiceInstance object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(ServiceInstance, Fixnum, Hash)>] ServiceInstance data, response status code and response headers
     def show_service_instance_with_http_info(id, opts = {})
@@ -2442,7 +2446,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ServiceOffering
     # Returns a ServiceOffering object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [ServiceOffering]
     def show_service_offering(id, opts = {})
@@ -2452,7 +2456,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ServiceOffering
     # Returns a ServiceOffering object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(ServiceOffering, Fixnum, Hash)>] ServiceOffering data, response status code and response headers
     def show_service_offering_with_http_info(id, opts = {})
@@ -2499,7 +2503,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ServicePlan
     # Returns a ServicePlan object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [ServicePlan]
     def show_service_plan(id, opts = {})
@@ -2509,7 +2513,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing ServicePlan
     # Returns a ServicePlan object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(ServicePlan, Fixnum, Hash)>] ServicePlan data, response status code and response headers
     def show_service_plan_with_http_info(id, opts = {})
@@ -2556,7 +2560,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Source
     # Returns a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Source]
     def show_source(id, opts = {})
@@ -2566,7 +2570,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Source
     # Returns a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Source, Fixnum, Hash)>] Source data, response status code and response headers
     def show_source_with_http_info(id, opts = {})
@@ -2613,7 +2617,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing SourceType
     # Returns a SourceType object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [SourceType]
     def show_source_type(id, opts = {})
@@ -2623,7 +2627,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing SourceType
     # Returns a SourceType object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(SourceType, Fixnum, Hash)>] SourceType data, response status code and response headers
     def show_source_type_with_http_info(id, opts = {})
@@ -2670,7 +2674,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Task
     # Returns a Task object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Task]
     def show_task(id, opts = {})
@@ -2680,7 +2684,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Task
     # Returns a Task object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Task, Fixnum, Hash)>] Task data, response status code and response headers
     def show_task_with_http_info(id, opts = {})
@@ -2727,7 +2731,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Vm
     # Returns a Vm object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Vm]
     def show_vm(id, opts = {})
@@ -2737,7 +2741,7 @@ module TopologicalInventoryApiClient
 
     # Show an existing Vm
     # Returns a Vm object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(Vm, Fixnum, Hash)>] Vm data, response status code and response headers
     def show_vm_with_http_info(id, opts = {})
@@ -2784,7 +2788,7 @@ module TopologicalInventoryApiClient
 
     # Update an existing Endpoint
     # Updates a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [nil]
     def update_endpoint(id, opts = {})
@@ -2794,7 +2798,7 @@ module TopologicalInventoryApiClient
 
     # Update an existing Endpoint
     # Updates a Endpoint object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(nil, Fixnum, Hash)>] nil, response status code and response headers
     def update_endpoint_with_http_info(id, opts = {})
@@ -2838,7 +2842,7 @@ module TopologicalInventoryApiClient
 
     # Update an existing Source
     # Updates a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [nil]
     def update_source(id, opts = {})
@@ -2848,7 +2852,7 @@ module TopologicalInventoryApiClient
 
     # Update an existing Source
     # Updates a Source object
-    # @param id ID of the resource to return
+    # @param id ID of the resource
     # @param [Hash] opts the optional parameters
     # @return [Array<(nil, Fixnum, Hash)>] nil, response status code and response headers
     def update_source_with_http_info(id, opts = {})

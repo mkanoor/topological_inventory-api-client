@@ -231,7 +231,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Delete an existing Endpoint
@@ -245,7 +245,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -281,7 +281,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Delete an existing Source
@@ -295,7 +295,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -378,7 +378,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ContainerGroups for ContainerNode
@@ -393,7 +393,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -476,7 +476,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ContainerGroups for ContainerProject
@@ -491,7 +491,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -527,7 +527,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ContainerTemplates for ContainerProject
@@ -542,7 +542,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -813,7 +813,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ServiceInstances for ServiceOffering
@@ -828,7 +828,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -864,7 +864,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ServicePlans for ServiceOffering
@@ -879,7 +879,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -962,7 +962,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ServiceInstances for ServicePlan
@@ -977,7 +977,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1060,7 +1060,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ContainerGroups for Source
@@ -1075,7 +1075,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1111,7 +1111,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ContainerNodes for Source
@@ -1126,7 +1126,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1162,7 +1162,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ContainerProjects for Source
@@ -1177,7 +1177,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1213,7 +1213,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ContainerTemplates for Source
@@ -1228,7 +1228,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1264,7 +1264,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List Endpoints for Source
@@ -1279,7 +1279,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1315,7 +1315,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List OrchestrationStacks for Source
@@ -1330,7 +1330,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1366,7 +1366,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ServiceInstances for Source
@@ -1381,7 +1381,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1417,7 +1417,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ServiceOfferings for Source
@@ -1432,7 +1432,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1468,7 +1468,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List ServicePlans for Source
@@ -1483,7 +1483,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1519,7 +1519,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List Sources for SourceType
@@ -1534,7 +1534,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1617,7 +1617,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #List Vms for Source
@@ -1632,7 +1632,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1791,7 +1791,7 @@ This endpoint does not need any parameter.
 
 
 # **order_service_plan**
-> InlineResponse200 order_service_plan(id, opts)
+> InlineResponse200 order_service_plan(id, order_parameters)
 
 Order an existing ServicePlan
 
@@ -1809,14 +1809,12 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
-opts = {
-  inline_object: TopologicalInventoryApiClient::InlineObject.new # InlineObject | 
-}
+id = 'id_example' # String | ID of the resource
+order_parameters = TopologicalInventoryApiClient::OrderParameters.new # OrderParameters | Order parameters defining the service and provider control
 
 begin
   #Order an existing ServicePlan
-  result = api_instance.order_service_plan(id, opts)
+  result = api_instance.order_service_plan(id, order_parameters)
   p result
 rescue TopologicalInventoryApiClient::ApiError => e
   puts "Exception when calling DefaultApi->order_service_plan: #{e}"
@@ -1827,8 +1825,8 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
- **inline_object** | [**InlineObject**](InlineObject.md)|  | [optional] 
+ **id** | **String**| ID of the resource | 
+ **order_parameters** | [**OrderParameters**](OrderParameters.md)| Order parameters defining the service and provider control | 
 
 ### Return type
 
@@ -1864,7 +1862,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Replace an existing Endpoint
@@ -1878,7 +1876,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1914,7 +1912,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Replace an existing Source
@@ -1928,7 +1926,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -1964,7 +1962,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing ContainerGroup
@@ -1979,7 +1977,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2015,7 +2013,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing ContainerNode
@@ -2030,7 +2028,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2066,7 +2064,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing ContainerProject
@@ -2081,7 +2079,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2117,7 +2115,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing ContainerTemplate
@@ -2132,7 +2130,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2168,7 +2166,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing Endpoint
@@ -2183,7 +2181,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2219,7 +2217,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing OrchestrationStack
@@ -2234,7 +2232,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2270,7 +2268,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing ServiceInstance
@@ -2285,7 +2283,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2321,7 +2319,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing ServiceOffering
@@ -2336,7 +2334,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2372,7 +2370,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing ServicePlan
@@ -2387,7 +2385,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2423,7 +2421,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing Source
@@ -2438,7 +2436,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2474,7 +2472,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing SourceType
@@ -2489,7 +2487,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2525,7 +2523,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing Task
@@ -2540,7 +2538,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2576,7 +2574,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Show an existing Vm
@@ -2591,7 +2589,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2627,7 +2625,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Update an existing Endpoint
@@ -2641,7 +2639,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
@@ -2677,7 +2675,7 @@ TopologicalInventoryApiClient.configure do |config|
 end
 
 api_instance = TopologicalInventoryApiClient::DefaultApi.new
-id = 'id_example' # String | ID of the resource to return
+id = 'id_example' # String | ID of the resource
 
 begin
   #Update an existing Source
@@ -2691,7 +2689,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **String**| ID of the resource to return | 
+ **id** | **String**| ID of the resource | 
 
 ### Return type
 
