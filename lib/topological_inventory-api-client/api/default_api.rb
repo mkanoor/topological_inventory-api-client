@@ -207,8 +207,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.delete_endpoint"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.delete_endpoint, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.delete_endpoint, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -261,8 +261,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.delete_source"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.delete_source, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.delete_source, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -362,8 +362,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_container_node_container_groups"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_container_node_container_groups, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_container_node_container_groups, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -466,8 +466,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_container_project_container_groups"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_container_project_container_groups, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_container_project_container_groups, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -523,8 +523,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_container_project_container_templates"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_container_project_container_templates, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_container_project_container_templates, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -815,8 +815,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_service_offering_service_instances"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_service_offering_service_instances, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_service_offering_service_instances, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -872,8 +872,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_service_offering_service_plans"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_service_offering_service_plans, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_service_offering_service_plans, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -976,8 +976,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_service_plan_service_instances"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_service_plan_service_instances, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_service_plan_service_instances, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1080,8 +1080,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_container_groups"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_groups, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_groups, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1137,8 +1137,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_container_nodes"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_nodes, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_nodes, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1194,8 +1194,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_container_projects"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_projects, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_projects, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1251,8 +1251,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_container_templates"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_templates, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_container_templates, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1308,8 +1308,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_endpoints"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_endpoints, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_endpoints, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1365,8 +1365,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_orchestration_stacks"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_orchestration_stacks, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_orchestration_stacks, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1422,8 +1422,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_service_instances"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_service_instances, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_service_instances, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1479,8 +1479,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_service_offerings"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_service_offerings, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_service_offerings, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1536,8 +1536,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_service_plans"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_service_plans, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_service_plans, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1593,8 +1593,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_type_sources"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_type_sources, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_type_sources, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1697,8 +1697,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.list_source_vms"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_vms, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.list_source_vms, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1897,8 +1897,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.order_service_plan"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.order_service_plan, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.order_service_plan, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -1956,8 +1956,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.replace_endpoint"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.replace_endpoint, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.replace_endpoint, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2010,8 +2010,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.replace_source"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.replace_source, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.replace_source, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2064,8 +2064,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_container_group"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_group, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_group, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2121,8 +2121,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_container_node"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_node, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_node, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2178,8 +2178,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_container_project"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_project, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_project, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2235,8 +2235,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_container_template"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_template, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_container_template, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2292,8 +2292,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_endpoint"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_endpoint, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_endpoint, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2349,8 +2349,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_orchestration_stack"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_orchestration_stack, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_orchestration_stack, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2406,8 +2406,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_service_instance"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_service_instance, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_service_instance, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2463,8 +2463,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_service_offering"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_service_offering, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_service_offering, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2520,8 +2520,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_service_plan"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_service_plan, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_service_plan, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2577,8 +2577,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_source"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_source, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_source, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2634,8 +2634,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_source_type"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_source_type, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_source_type, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2691,8 +2691,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_task"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_task, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_task, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2748,8 +2748,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.show_vm"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_vm, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.show_vm, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2805,8 +2805,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.update_endpoint"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.update_endpoint, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.update_endpoint, must conform to the pattern /^\d+$/."
       end
 
       # resource path
@@ -2859,8 +2859,8 @@ module TopologicalInventoryApiClient
       if @api_client.config.client_side_validation && id.nil?
         fail ArgumentError, "Missing the required parameter 'id' when calling DefaultApi.update_source"
       end
-      if @api_client.config.client_side_validation && id !~ Regexp.new(/\A\d+\z/)
-        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.update_source, must conform to the pattern /\A\d+\z/."
+      if @api_client.config.client_side_validation && id !~ Regexp.new(/^\d+$/)
+        fail ArgumentError, "invalid value for 'id' when calling DefaultApi.update_source, must conform to the pattern /^\d+$/."
       end
 
       # resource path
