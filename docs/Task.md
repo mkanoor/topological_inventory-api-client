@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **name** | **String** |  | [optional] 
 **status** | **String** |  | [optional] 
 **state** | **String** |  | [optional] 
-**context** | **Object** |  | [optional] 
+**context** | [**Object**](.md) |  | [optional] 
 **completed_at** | **DateTime** |  | [optional] 
 **tenant_id** | **String** |  | [optional] 
 

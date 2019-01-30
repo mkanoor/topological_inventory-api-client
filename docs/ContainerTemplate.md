@@ -11,5 +11,6 @@ Name | Type | Description | Notes
 **source_ref** | **String** |  | [optional] 
 **tenant_id** | **String** |  | [optional] 
 **container_project_id** | **String** |  | [optional] 
+**taggings** | [**Array&lt;Tagging&gt;**](Tagging.md) |  | [optional] 
 
 
