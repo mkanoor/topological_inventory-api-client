@@ -7,5 +7,6 @@ Name | Type | Description | Notes
 **name** | **String** |  | 
 **product_name** | **String** |  | 
 **vendor** | **String** |  | 
+**schema** | [**Object**](.md) |  | [optional] 
 
 
